@@ -7,7 +7,7 @@ module.exports.config = {
 		version: "1.0.1",
 		aliases: ["info", "Info", "in", "fo"],
 		role: 0,
-		credits: "metoushela",
+		credits: "Charley",
 		description: "Admin and Bot info.",
 		cooldown: 5,
 		hasPrefix: false,
@@ -25,10 +25,10 @@ module.exports.run = async function({ api, event, args }) {
 		const uptimeString = `${years > 0 ? `${years} years ` : ''}${months > 0 ? `${months} months ` : ''}${weeks > 0 ? `${weeks} weeks ` : ''}${days % 7 > 0 ? `${days % 7} days ` : ''}${hours > 0 ? `${hours} hours ` : ''}${minutes > 0 ? `${minutes} minutes ` : ''}${seconds} seconds`;
 
 		const prefix = "🤣";
-		const CREATORLINK = "https://www.facebook.com/profile.php?id=61551417118451";
-		const BOTCREATOR = "Métöushela Walkēr";
-		const BOTNAME = "MEGAN AE";
-		const FILESOWNER = "AE";
+		const CREATORLINK = "https://www.facebook.com/profile.php?id=61550011623347";
+		const BOTCREATOR = "Charlie Ocoy";
+		const BOTNAME = "Sh4rleyy";
+		const FILESOWNER = "Charlie, //credit sa mismong owner ng GoatBot";
 		const juswa = moment.tz("Asia/Manila").format("『D/MM/YYYY』 【HH:mm:ss】");
 		const link = ["https://i.imgur.com/9LDVC57.mp4", "https://i.imgur.com/r7IxgiR.mp4", "https://i.imgur.com/J1jWubu.mp4", "https://i.imgur.com/DJylTiy.mp4", "https://i.imgur.com/v4mLGte.mp4", "https://i.imgur.com/uthREbe.mp4", "https://i.imgur.com/ee8fHna.mp4", "https://i.imgur.com/VffzOwS.mp4", "https://i.imgur.com/ci5nztg.mp4", "https://i.imgur.com/qHPeKDV.mp4", "https://i.imgur.com/Rkl5UmH.mp4",
 "https://i.imgur.com/IGXINCB.mp4",
